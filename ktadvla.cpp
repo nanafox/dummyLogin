@@ -171,6 +171,7 @@ int main()
 	// twitter: @_nanafox
 	// IG: nanaforsonjnr
 	// WhatsApp: +233 55 721 8441
+	// ©theLazyProgrammer2020
 
 	return 0;
 }

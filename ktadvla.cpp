@@ -1,3 +1,7 @@
+// a college assigment which requires the programmer to code something
+// will accept a user into the system if only they are well authenticted
+// it is not really sophisticated but then update will be made from time to time
+// at the time of doing this assigment, the requirements were minimum
 
 #include <iostream>
 #include <string>
@@ -120,28 +124,28 @@ int vehicleTax()
 			taxPayable = subTaxPayable * numberOfCarsPurchased;
 			totalCostOfCars = unitCostOfCars + taxPayable;
 
-            // now let's display the results
-            cout << "\n***RESULTS***";
+      // now let's display the results
+    	cout << "\n***RESULTS***";
 			cout << "\nCar purchased: " << nameOfCar << endl;
-            cout << "Unit price: GHS" << amountPerCar << endl;
-            cout << "Total number of cars purchased: " << numberOfCarsPurchased << endl;
-            cout << "Sub Total: GHS" << unitCostOfCars << endl;
-            cout << "Tax Payable per vehicle: GHS" << subTaxPayable << endl;
-            cout << "Total tax payable: GHS" << taxPayable << endl;
-            cout << "Grand Total: GHS" << totalCostOfCars << endl;
+      cout << "Unit price: GHS" << amountPerCar << endl;
+      cout << "Total number of cars purchased: " << numberOfCarsPurchased << endl;
+      cout << "Sub Total: GHS" << unitCostOfCars << endl;
+      cout << "Tax Payable per vehicle: GHS" << subTaxPayable << endl;
+      cout << "Total tax payable: GHS" << taxPayable << endl;
+      cout << "Grand Total: GHS" << totalCostOfCars << endl;
 
-            // ask the user if they want to make another calculation
-            // remember, the question asked that it should be able to do it at least ten times
-            // this will repeat so long as the user's answer is Yes
-            cout << "\nDo you want to make another calculation?" << endl;
-            cout << "[Y]es [N]o: ";
-            cin >> calculateAgain;
-            convertCalc(calculateAgain);
-            if (calculateAgain == "n")
-            {
-                cout << "Goodbye" << endl;
-                return 0;
-            }
+      // ask the user if they want to make another calculation
+      // remember, the question asked that it should be able to do it at least ten times
+      // this will repeat so long as the user's answer is Yes
+      cout << "\nDo you want to make another calculation?" << endl;
+      cout << "[Y]es [N]o: ";
+      cin >> calculateAgain;
+      convertCalc(calculateAgain);
+      if (calculateAgain == "n")
+      {
+          cout << "Goodbye" << endl;
+          return 0;
+      }
 
 		}
 
@@ -173,7 +177,7 @@ int main()
 	// WhatsApp: +233 55 721 8441
 	// GitHub: @nanafox
 	// ©theLazyProgrammer2020
-	
+
 
 	return 0;
 }
